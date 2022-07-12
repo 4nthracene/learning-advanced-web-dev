@@ -1,0 +1,16 @@
+{
+  "name": "LearningTs",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json index.ts"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Armaan Gupta",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

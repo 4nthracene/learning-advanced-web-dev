@@ -2,7 +2,7 @@ import express from 'express';
 import config from 'config';
 import log from './logger/index';
 import connect from './db/connect';
-import ApplyRoutes from "./routes";
+import ApplyRoutes from './routes';
 
 const port = config.get('PORT') as number;
 const host = config.get('HOST') as string;
@@ -15,7 +15,7 @@ async function run() {
 
   app.listen(port, host, () => {
     log.info(`[SERVER]: Listening on http://${host}:${port}`);
-	ApplyRoutes(app);
+    ApplyRoutes(app);
   });
 }
 
