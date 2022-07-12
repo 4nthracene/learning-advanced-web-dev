@@ -29,5 +29,5 @@ app.post("/", async (req: Request, res: Response, next: NextFunction) => {
 
 
 app.listen(3000, () => {
-  console.log(`Server running on port 3000`)
+  console.log(`Post service running now.`)
 })
